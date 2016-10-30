@@ -27,4 +27,4 @@ CMD python /ssr/shadowsocks/shadowsocks/server.py -p $LISTEN_PORT \
                                               -k $KEY \
                                               -m $METHOD \
                                               -O $PROTOCOL \
-                                              -o #OBFS
+                                              -o $OBFS
